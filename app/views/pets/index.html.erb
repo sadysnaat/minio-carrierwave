@@ -9,7 +9,7 @@
           <%= link_to image_tag(pet.image.show.url), pet_path(pet) %>
           <div class="caption">
             <h3><%= pet.name %></h3>
-            <p><%= pet.description %></p>
+            <p><%= pet.description[0..20] %></p>
           </div>
         </div>
       </div>
