@@ -4,7 +4,7 @@ This project is made with the help of this [tutorial](https://code.tutsplus.com/
 
 ![minio_ROR](https://github.com/sadysnaat/minio-carrierwave/blob/master/docs/Screenshot.png?raw=true)
 
-Example Ruby on Rails App that works with a Minio Server. We will use the **carrierwave** in our rails app to upload objects to a Minio Server. Full code is available here : https://github.com/sadysnaat/minio-carrierwave, released under Apache 2.0 License.
+Example Ruby on Rails App that works with a Minio Server. We will use the **carrierwave** gem in our rails app to upload objects to a Minio Server. Full code is available here : https://github.com/sadysnaat/minio-carrierwave, released under Apache 2.0 License.
 
 ## 1. Prerequisites
 
