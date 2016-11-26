@@ -1,5 +1,7 @@
 # RoR Pet catalog app using carrierwave and minio [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/minio/minio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+This project is made with the help of this [tutorial](https://code.tutsplus.com/tutorials/rails-image-upload-using-carrierwave-in-a-rails-app--cms-25183)
+
 ![minio_ROR](https://github.com/sadysnaat/minio-carrierwave/blob/master/docs/Screenshot.png?raw=true)
 
 Example Ruby on Rails App that works with a Minio Server. We will use the **paperclip** in our rails app to upload objects to a Minio Server. Full code is available here : https://github.com/sadysnaat/minio-carrierwave, released under Apache 2.0 License.
