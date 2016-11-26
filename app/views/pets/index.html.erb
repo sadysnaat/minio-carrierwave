@@ -1,0 +1,20 @@
+<%- model_class = Pet -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<div class="row">
+    <% @pets.each do |pet| %>
+      <div class="col-lg-2">
+        <div class="thumbnail">
+          <%= link_to image_tag(pet.image.show.url), pet_path(pet) %>
+          <div class="caption">
+            <h3><%= pet.name %></h3>
+            <p><%= pet.description %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+</div>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_pet_path,
+            :class => 'btn btn-primary' %>
